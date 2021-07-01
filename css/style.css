@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.form-search form{
+    display: inline-flex;
+}
+
 .site-navbar {
     background: #fff;
 }
@@ -14,11 +18,9 @@
     border-bottom: 1px solid #f3f3f4;
 } 
 
-.form-search{
-    display: inline-flex;
-}
 .form-search form i{
     color: #868995;
+    margin-top: 9px;
 }
 
 .form-search form input{
@@ -168,4 +170,10 @@
 .Services .row .card .row i{
     font-size: 35px;
     color: #7971ea;
+}
+
+/************************ Start Media Query *****************************/
+
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    
 }
