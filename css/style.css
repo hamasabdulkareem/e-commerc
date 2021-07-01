@@ -181,6 +181,7 @@
 }
 .box{
     position: relative;
+    cursor: pointer;
 }
 
 .section-collections-images .row .box .img{
@@ -225,6 +226,53 @@
     background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
 }
+
+.slidshow{
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+}
+
+.slidshow .images{
+    justify-content: center;
+}
+
+.slidshow .images .card{
+    margin: 10px;
+    width: 21rem;
+}
+
+.slidshow .container .row .heading{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.slidshow .container .row .heading hr{
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid #7971ea;
+}
+
+.slidshow .row .card .card-body {
+   text-align: center;
+   padding: 50px;
+}
+
+.slidshow .row .card .card-body h5,
+.slidshow .row .card .card-body p{
+    margin: 0;
+}
+
+.slidshow .row .card .card-body h5 a{
+    text-decoration: none;
+    color: #7971ea;
+}
+
+.slidshow .row .card .card-body span{
+    font-weight: 1000;
+    color: #7971ea;
+}
+
+
 
 
 /************************ Start Media Query *****************************/
