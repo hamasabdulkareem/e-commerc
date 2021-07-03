@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/******************************************************* Start Index page ************************8888****************/
 
+/******************* Top Header start *************/
 .form-search form{
     display: inline-flex;
 }
@@ -86,7 +88,9 @@
     transform: translateY(-2px);
     box-shadow: 1px 4px 10px rgb(204, 202, 202);
 }
+/******************* Top Header End ****************/
 
+/****************** Navbar start *******************/
 .collapse .navbar-nav li a{
     margin: 8px;
     font-size: 13px;
@@ -101,6 +105,9 @@
 .collapse .navbar-nav li i{
     margin: 5px;
 }
+/****************** Navbar End *******************/
+
+/****************** Bannar start *******************/
 .bannar{
     background-image: url(../images/hero_1.jpg);
     background-size: cover;
@@ -149,6 +156,9 @@
     transform: translateY(-3px);
     box-shadow: 1px 4px 10px rgb(12, 12, 12);
 }
+/****************** Bannar End *******************/
+
+/****************** Services Start *******************/
 
 .Services{
     background-color: #fff;
@@ -171,7 +181,9 @@
     font-size: 35px;
     color: #7971ea;
 }
+/****************** Services End *******************/
 
+/****************** Collections Images Start *******************/
 .section-collections-images{
     background-color: #fff;
 }
@@ -226,7 +238,9 @@
     background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
 }
+/****************** Collections Images End *******************/
 
+/****************** Slidshow Start *******************/
 .slidshow{
     background-color: #f8f9fa;
     padding-bottom: 100px;
@@ -271,12 +285,311 @@
     font-weight: 1000;
     color: #7971ea;
 }
+/****************** Slidshow End *******************/
 
+/****************** items-less Start *******************/
+.items-less{
+    background-color: #fff;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #f3f3f4;
+}
 
+.items-less .container .row .heading{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 
+.items-less .container .row .heading hr{
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid #7971ea;
+}
 
-/************************ Start Media Query *****************************/
+.items-less .container .row .content{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.items-less .container .row .content {
+    color: #8c92a0;
+}
+
+.items-less .container .row .content h2,
+.items-less .container .row .content .post-meta a{
+    color: #7971ea;
+}
+
+.items-less .container .row .content .link{
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 14px ;
+    padding: 10px 20px ;
+    color: #fff;
+    background-color: #7971ea;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border-color: #7971ea;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;  
+    transition: .2s all ease-in-out;
+}
+
+.items-less .container .row .content .link:hover{
+    background-color: #655ce2;
+    transform: translateY(-3px);
+    box-shadow: 1px 4px 10px rgb(12, 12, 12);
+}
+/****************** items-less End *******************/
+
+/****************** footer Start *******************/
+.footer{
+    background-color: #fff;
+}
+
+.footer .container .row{
+    margin:70px auto ;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer .container .row .navigations-link{
+    padding-top: 40px;
+}
+
+.footer .container .row .promo-contact{
+    width: 250px;   
+}
+
+.footer .container .row .promo-contact img{
+    width: 250px;   
+}
+
+.footer .container .row .promo-contact .img-title{
+    color: #7971ea;
+    display: block;
+    margin-top: 15px;   
+}
+
+.footer .container .row .promo-contact a{
+    color: black;
+}
+
+.footer .contact-link{
+    margin-left: 90px;
+}
+
+.footer .contact-link i{
+    color: #7971ea;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.footer .contact-link .form-title{
+    font-size: 20px;
+    margin-top: 70px;
+}
+.footer .contact-link .input-group{
+    padding: 3px; 
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.footer .contact-link .input-group input{
+    border: none;
+} 
+
+.footer .contact-link .input-group input:focus{
+    box-shadow: inset 0 0px 0 #ddd;
+}
+
+.footer .contact-link .input-group .btn{
+background-color: #7971ea;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+letter-spacing: .2em;
+text-transform: uppercase;
+margin-left: 1px;
+} 
+
+.footer .contact-link .input-group .btn:hover{
+    box-shadow: 1px 1px 5px rgb(12, 12, 12);
+}
+
+.copyright{
+    line-height: 1.7;
+    color: #8c92a0;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+/****************** footer End *******************/
+
+/************** Start Media Query for Index page ***********/
 
 @media only screen and (min-width: 0px) and (max-width: 575px){
+    .footer .contact-link{
+        margin-left: 0;
+    }
+    
+    .bannar .container .row h1 {
+        font-size: 25px;  
+    }
+    .section-collections-images .row .box  .filter {
+        width: 91%;
+    }
+    .bannar .container .row .banner-contant{
+       margin-top: 50px;
+    }
+    .bannar .container .row {
+        height: 620px;
+    }
+    .bannar .container .row a{
+        margin-left: -70px;
+    }
+    .site-navbar .site-top-icons ul{
+        margin-top: 30px;
+    }
+    .Services .row .card .row i{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .site-navbar .site-top-icons ul{
+        margin-top: 20px;
+    }
+    .footer .contact-link{
+        margin-left: 0;
+    }
+    .section-collections-images .row .box  .filter {
+        width: 88%;
+    }
+    .bannar .container .row h1 {
+        font-size: 30px;  
+    }
+    .bannar .container .row .banner-contant{
+        margin-top: 50px;
+     }
+     .bannar .container .row a{
+        margin-left: -70px;
+    }
+    .Services .row .card .row i{
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .footer .contact-link{
+        margin-left: 0;
+        background-color: #fff;
+    }
+    .section-collections-images .row .box  .filter {
+        width: 88%;
+    }
     
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .footer .contact-link{
+        margin-left: 1px;
+    }
+    .section-collections-images .row .box  .filter {
+        width: 90%;
+    }
+}
+
+/*********** End Media Query for Index page ***********/
+
+/************************************************************ End Index page ********************************************/
+
+/************************************************************ Start About page ********************************************/
+
+/*************** Stared-Section Statr ***********/
+.Stared-Section{
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f4;
+}
+
+.Stared-Section .container .row {
+    margin: 100px auto;
+} 
+
+.Stared-Section .container .row .description{
+    margin-left: 60px;
+    margin-bottom: 20px;
+} 
+
+.Stared-Section .container .row .description hr{
+    width: 50px;
+    border: 1px solid #7971ea;      
+}
+
+.Stared-Section .container .row .description p{
+    color: #8c92a0;
+}
+/*************** Stared-Section End ***********/
+
+/**************** The Team Start ****************/
+.the-team{
+    background-color: #fff;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #f3f3f4;
+}
+
+.the-team .container .row .heading{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.the-team .container .team-images{
+    justify-content: center;
+}
+
+.the-team .container .row .heading hr{
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid #7971ea;
+}
+
+.the-team .container .row .card span{
+    font-size: 12px;
+    color: #8c92a0;
+    letter-spacing: .1em;
+}
+
+.the-team .container .row .card p{
+    color: #8c92a0;
+}
+/**************** The Team End ****************/
+
+/**************** Start Media Query for about page *****************/
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    .Stared-Section .container .row .description{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    } 
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .Stared-Section .container .row .description{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .Stared-Section .container .row .description{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    } 
+}
+/*************** End Media Query for about page **********/
+
+/************************************************************ End About page ********************************************/
+
+/************************************************************ Start Contact-us page ********************************************/
