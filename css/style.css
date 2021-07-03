@@ -593,3 +593,58 @@ margin-left: 1px;
 /************************************************************ End About page ********************************************/
 
 /************************************************************ Start Contact-us page ********************************************/
+
+/************* Form-section Start*********/
+.form-section{
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f4;
+}
+.form-section .row{
+    margin: 100px auto;
+    justify-content: space-between;
+    
+}
+.form-contant{
+    width: 130%;
+    border: 2px solid #f3f3f4;
+    padding: 50px;
+}
+.adress{
+    margin-top: 40px;
+}
+.adress .card{
+    margin: 10px auto;
+    border: 2px solid #f3f3f4;
+}
+
+.card-body h6{
+    color: #7971ea;
+}
+
+.card-body p{
+    color: #8c92a0;
+}
+
+.button-send{
+    background-color: #7971ea;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button-send button{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 14px ;
+    padding: 10px 20px ;
+    line-height: 1.5; 
+    transition: .2s all ease-in-out;
+} 
+
+.button-send:hover{
+    background-color: #655ce2;
+    transform: translateY(-3px);
+    box-shadow: 1px 4px 10px rgb(12, 12, 12);
+}
